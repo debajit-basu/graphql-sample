@@ -1,0 +1,22 @@
+{
+  "name": "node-graphql-project1",
+  "version": "1.0.0",
+  "description": "Basic example of graphql with node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Debajit Basu",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.1",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

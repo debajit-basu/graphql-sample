@@ -1,0 +1,26 @@
+query GetSingleUser($getSingleUserId: ID!){
+  getSingleUser(id: $getSingleUserId) {
+    name
+    email
+    website
+    id
+  }
+}
+##--------------------------------##
+variables:--
+{
+  "getSingleUserId": 8
+}
+-------------------------------------------------------
+query ExampleQuery{
+  getTodos {
+    id
+    title
+    completed
+    user {
+      id
+      name
+      email
+    }
+  }
+}
